@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: ForwizSystem Laboratory
+subtitle: '포위즈시스템 연구소 지식저장소'
+description: '포위즈시스템 부설연구소 지식관리 블로그 입니다.'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Forwiz Lab
+language: ko
+timezone: 'Asia/Seoul'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://kronenz.github.io/wizpage
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,4 +102,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/kronenz/wizpage.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: main
+  message: whatmessage
